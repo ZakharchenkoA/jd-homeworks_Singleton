@@ -12,11 +12,11 @@ public class Filter {
         Logger logger = Logger.getInstance();
         logger.log("Запускаем фильтрации");
         List<Integer> result = new ArrayList<>();
-        for (int f : source){
-            if(f >= treshold) {
+        for (int f : source) {
+            if (f >= treshold) {
                 result.add(f);
                 logger.log("Элемент " + "'" + f + "'" + " подходит");
-            }else {
+            } else {
                 logger.log("Элемент " + "'" + f + "'" + " не подходит");
             }
         }

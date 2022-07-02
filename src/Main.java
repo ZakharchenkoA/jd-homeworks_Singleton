@@ -20,7 +20,7 @@ public class Main {
 
         List<Integer> list = new ArrayList<>();
         Random random = new Random();
-        for (int i = 0; i <= size; i++){
+        for (int i = 0; i <= size; i++) {
             list.add(random.nextInt(maxBorder));
         }
         System.out.println("Вот случайный список: " + list);
